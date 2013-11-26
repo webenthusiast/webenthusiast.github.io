@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[webenthusiast Technology]]></title>
-  <link href="http://webenthusiast.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Mac | webenthusiast Technology]]></title>
+  <link href="http://webenthusiast.github.io/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://webenthusiast.github.io/"/>
   <updated>2013-11-26T22:03:22+09:00</updated>
   <id>http://webenthusiast.github.io/</id>
