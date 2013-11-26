@@ -4,7 +4,7 @@
   <title><![CDATA[webenthusiast Technology]]></title>
   <link href="http://webenthusiast.github.io/atom.xml" rel="self"/>
   <link href="http://webenthusiast.github.io/"/>
-  <updated>2013-11-26T22:03:22+09:00</updated>
+  <updated>2013-11-26T22:05:03+09:00</updated>
   <id>http://webenthusiast.github.io/</id>
   <author>
     <name><![CDATA[ko1]]></name>
@@ -21,6 +21,8 @@
     <content type="html"><![CDATA[<p>Hi.</p>
 
 <p>Regular Expression Notes.</p>
+
+<p>Test Posting.</p>
 ]]></content>
   </entry>
   
