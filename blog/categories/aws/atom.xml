@@ -4,7 +4,7 @@
   <title><![CDATA[Category: AWS | webenthusiast Technology]]></title>
   <link href="http://webenthusiast.github.io/blog/categories/aws/atom.xml" rel="self"/>
   <link href="http://webenthusiast.github.io/"/>
-  <updated>2013-11-27T10:42:57+09:00</updated>
+  <updated>2013-11-27T10:47:39+09:00</updated>
   <id>http://webenthusiast.github.io/</id>
   <author>
     <name><![CDATA[ko1]]></name>
@@ -18,9 +18,13 @@
     <link href="http://webenthusiast.github.io/blog/2013/11/27/vsftpd/"/>
     <updated>2013-11-27T10:25:50+09:00</updated>
     <id>http://webenthusiast.github.io/blog/2013/11/27/vsftpd</id>
-    <content type="html"><![CDATA[<h1 id="amimotoec2vsftpd">Amimoto+EC2でのVSFTPdインストール手順</h1>
+    <content type="html"><![CDATA[<h1>Amimoto+EC2でのVSFTPdインストール手順</h1>
 
-<h2 id="mac-terminalec2ssh">Mac Terminalにて、EC2サーバーにSSHで接続</h2>
+<h2>Mac Terminalにて、EC2サーバーにSSHで接続</h2>
+
+<hr />
+
+<p>あさ</p>
 
 <pre><code># ssh -i /keypairs/******.pem ec2-user@12.345.678.90
 </code></pre>
