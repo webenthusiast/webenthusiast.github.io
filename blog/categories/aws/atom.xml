@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[webenthusiast Technology]]></title>
-  <link href="http://webenthusiast.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: AWS | webenthusiast Technology]]></title>
+  <link href="http://webenthusiast.github.io/blog/categories/aws/atom.xml" rel="self"/>
   <link href="http://webenthusiast.github.io/"/>
   <updated>2013-11-27T10:28:07+09:00</updated>
   <id>http://webenthusiast.github.io/</id>
@@ -212,19 +212,6 @@ xferlog_std_format=YES
 #
 tcp_wrappers=YES
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[regular expression]]></title>
-    <link href="http://webenthusiast.github.io/blog/2013/11/26/regular-expression/"/>
-    <updated>2013-11-26T21:53:55+09:00</updated>
-    <id>http://webenthusiast.github.io/blog/2013/11/26/regular-expression</id>
-    <content type="html"><![CDATA[<p>Hi.</p>
-
-<p>Regular Expression Notes.</p>
-
-<p>Test Posting.</p>
 ]]></content>
   </entry>
   
