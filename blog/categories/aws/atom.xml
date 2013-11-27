@@ -4,7 +4,7 @@
   <title><![CDATA[Category: AWS | webenthusiast Technology]]></title>
   <link href="http://webenthusiast.github.io/blog/categories/aws/atom.xml" rel="self"/>
   <link href="http://webenthusiast.github.io/"/>
-  <updated>2013-11-27T10:28:07+09:00</updated>
+  <updated>2013-11-27T10:41:08+09:00</updated>
   <id>http://webenthusiast.github.io/</id>
   <author>
     <name><![CDATA[ko1]]></name>
@@ -18,7 +18,26 @@
     <link href="http://webenthusiast.github.io/blog/2013/11/27/vsftpd/"/>
     <updated>2013-11-27T10:25:50+09:00</updated>
     <id>http://webenthusiast.github.io/blog/2013/11/27/vsftpd</id>
-    <content type="html"><![CDATA[<pre><code># Example config file /etc/vsftpd/vsftpd.conf
+    <content type="html"><![CDATA[<h1 id="amimotoec2vsftpd">Amimoto+EC2でのVSFTPdインストール手順</h1>
+
+<h2 id="mac-terminalec2ssh">Mac Terminalにて、EC2サーバーにSSHで接続</h2>
+
+<pre><code># ssh -i /keypairs/******.pem ec2-user@12.345.678.90
+</code></pre>
+
+<p>ec2-user@以降はElastic IPまたはPublic DNS。</p>
+
+<pre><code># sudo su -
+</code></pre>
+
+<p>root権限に変更。</p>
+
+<pre><code># yum -y install vsftpd
+</code></pre>
+
+<p>yumで、-yで全てyesを省略しつつvsftpdをインストール。</p>
+
+<pre><code># Example config file /etc/vsftpd/vsftpd.conf
 #
 # The default compiled in settings are fairly paranoid. This sample file
 # loosens things up a bit, to make the ftp daemon more usable.

@@ -9,10 +9,7 @@
   <meta name="author" content="ko1">
 
   
-  <meta name="description" content="# Example config file /etc/vsftpd/vsftpd.conf
-#
-# The default compiled in settings are fairly paranoid. This sample file
-# loosens things up a bit, &hellip;">
+  <meta name="description" content="Amimoto+EC2でのVSFTPdインストール手順 Mac Terminalにて、EC2サーバーにSSHで接続 # ssh -i /keypairs/******.pem ec2-user@12.345.678.90 ec2-user@以降はElastic IPまたはPublic DNS &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -88,7 +85,26 @@
   </header>
 
 
-<div class="entry-content"><pre><code># Example config file /etc/vsftpd/vsftpd.conf
+<div class="entry-content"><h1 id="amimotoec2vsftpd">Amimoto+EC2でのVSFTPdインストール手順</h1>
+
+<h2 id="mac-terminalec2ssh">Mac Terminalにて、EC2サーバーにSSHで接続</h2>
+
+<pre><code># ssh -i /keypairs/******.pem ec2-user@12.345.678.90
+</code></pre>
+
+<p>ec2-user@以降はElastic IPまたはPublic DNS。</p>
+
+<pre><code># sudo su -
+</code></pre>
+
+<p>root権限に変更。</p>
+
+<pre><code># yum -y install vsftpd
+</code></pre>
+
+<p>yumで、-yで全てyesを省略しつつvsftpdをインストール。</p>
+
+<pre><code># Example config file /etc/vsftpd/vsftpd.conf
 #
 # The default compiled in settings are fairly paranoid. This sample file
 # loosens things up a bit, to make the ftp daemon more usable.
